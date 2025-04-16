@@ -24,3 +24,5 @@ You will see the build errors and lint warnings in the console.
 
 ### `yarn build` fails to minify
 
+
+- suw!
