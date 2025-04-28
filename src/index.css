@@ -1,53 +1,53 @@
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Tailwind CSS Base, Components, and Utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Chrome, Safari, Edge, Opera */
+/* Disable spin buttons in input fields */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
+/* Remove number input styling in Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
 }
 
+/* Gradient button background */
 .gradient_btn {
-  background: linear-gradient(
-    103.91deg,
-    #9b51e0 21.01%,
-    rgba(48, 129, 237, 0.8) 100%
-  );
+  background: linear-gradient(103.91deg, #9b51e0 21.01%, rgba(48, 129, 237, 0.8) 100%);
 }
 
+/* Pink gradient circle effect */
 .pink_gradient {
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   width: 123px;
   height: 123px;
   border-radius: 50%;
-
   background: #fb37ff;
   filter: blur(200px);
 }
 
+/* Blue gradient circle effect */
 .blue_gradient {
   position: absolute;
-  bottom: 0%;
-  right: 0%;
+  bottom: 0;
+  right: 0;
   width: 123px;
   height: 123px;
   border-radius: 50%;
-
   background: #18b2de;
   filter: blur(200px);
 }
 
+/* Gradient border effect */
 .gradient-border {
   background: linear-gradient(
     168.82deg,
